@@ -8,7 +8,8 @@
       <q-img class="logo q-mb-lg"
            src="../../assets/instadevlogo.svg"></q-img>
       <q-input filled v-model="email" label="E-mail" class="full-width q-mb-md"/>
-      <q-input filled v-model="password" label="Password" type="password" class="full-width q-mb-md"/>
+      <q-input filled v-model="password" label="Password"
+        type="password" class="full-width q-mb-md"/>
       <div class="full-width items-end column">
         <a class="link q-mt-md" href="#">Forgot password?</a>
       </div>
@@ -57,7 +58,7 @@ export default {
 .sign-in-button {
   height: 44px;
   border-radius: 5px;
-  background-color: #3797ef;
+  background-color: $instablue ;
 }
 
 .facebook-icon {
